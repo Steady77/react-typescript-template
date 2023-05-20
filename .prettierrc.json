@@ -1,0 +1,21 @@
+{
+	"tabWidth": 2,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"semi": true,
+	"printWidth": 80,
+	"useTabs": true,
+	"importOrder": [
+		"<THIRD_PARTY_MODULES>",
+		"/ui/",
+		"/hooks/",
+		"/screens/",
+		"/components/",
+		"/assets/",
+		"^../(.*)",
+		"^./(.*)",
+		"/module.scss/"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
